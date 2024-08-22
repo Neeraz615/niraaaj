@@ -88,3 +88,19 @@
 
 </body>
 </html>
+<!-- JavaScript -->
+<script>
+    document.getElementById('showSkills').addEventListener('click', function() {
+        const skillsList = document.getElementById('skillsList');
+        if (skillsList.classList.contains('hidden')) {
+            skillsList.classList.remove('hidden');
+            this.textContent = 'Hide Skills';
+        } else {
+            skillsList.classList.add('hidden');
+            this.textContent = 'Show Skills';
+        }
+    });
+</script>
+
+</body>
+</html>
